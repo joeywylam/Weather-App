@@ -9,7 +9,7 @@ async function getWeather() {
         return;
     }
 
-    const apiKey = '5f8ecdbe510385914800bdcb2e4f2d79';  // Replace with your OpenWeatherMap API key
+    const apiKey = '3e6004e97e40f56c2baee2e97515bff9';  // Replace with your OpenWeatherMap API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
