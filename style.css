@@ -14,7 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 350px;
 }
 
 h1 {
@@ -32,8 +32,9 @@ h1 {
     border-radius: 4px;
 }
 
-#getWeatherButton {
+button {
     padding: 8px 12px;
+    margin: 5px;
     background-color: #007BFF;
     color: white;
     border: none;
@@ -41,7 +42,7 @@ h1 {
     cursor: pointer;
 }
 
-#getWeatherButton:hover {
+button:hover {
     background-color: #0056b3;
 }
 
@@ -49,4 +50,21 @@ h1 {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
+}
+
+.forecast-day {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.recent-searches {
+    margin-top: 20px;
+}
+
+.recent-searches button {
+    background-color: #28a745;
+}
+
+.recent-searches button:hover {
+    background-color: #218838;
 }
