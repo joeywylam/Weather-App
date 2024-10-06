@@ -9,7 +9,7 @@ async function getWeather() {
         return;
     }
 
-    const apiKey = 'YOUR_API_KEY_HERE';
+    const apiKey = '3e6004e97e40f56c2baee2e97515bff9';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
@@ -35,7 +35,7 @@ async function getWeatherByLocation() {
     navigator.geolocation.getCurrentPosition(async (position) => {
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
-        const apiKey = 'YOUR_API_KEY_HERE';
+        const apiKey = '3e6004e97e40f56c2baee2e97515bff9';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
         try {
@@ -60,7 +60,7 @@ async function get7DayForecast() {
         return;
     }
 
-    const apiKey = '5f8ecdbe510385914800bdcb2e4f2d79';
+    const apiKey = '3e6004e97e40f56c2baee2e97515bff9';
     const apiUrl = `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=7&appid=${apiKey}&units=metric`;
 
     try {
